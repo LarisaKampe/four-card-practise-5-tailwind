@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <link rel="stylesheet" href="./src/output.css">
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+</head>
+
+<body class="bg-secondary-lightGray">
+  
+  <main class="flex flex-col justify-center mt-[5rem]">
+    <!-- TEXT -->
+    <div class="flex flex-col justify-center items-center">
+      <h1 class="font-sans text-3xl text-secondary-darkBlue font-[300] text-center">Reliable, efficient delivery</h1>
+      <h2 class=" font-sans text-3xl text-secondary-darkBlue font-bold text-center">Powered by Technology</h2>
+      <p class="text-center max-w-md text-secondary-grayBlue pt-4 pb-8">Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful</p>
+    </div>
+    
+    <!-- CARDS -->
+    <section class="flex justify-center items-center max-lg:flex-col gap-8 mt-8">
+      <div class="bg-white h-[15rem] p-8 border-t-8 border-t-primary-cyan rounded-[.3rem] relative w-[355px] shadow-lg">
+        <h3 class="text-lg font-bold text-secondary-darkBlue">Supervisor</h3>
+        <p class="text-sm text-secondary-grayBlue pt-3 leading-6">Monitors activity to identify project roadblocks</p>
+        <img src="./images/icon-supervisor.svg" alt="icon-supervisor" class="absolute right-8 bottom-8">
+      </div>
+
+      <div class="flex flex-col gap-8">
+        <div class="bg-white h-[15rem] p-8 border-t-8 border-t-primary-red rounded-[.3rem] relative w-[355px] shadow-lg">
+          <h3 class="text-lg font-bold text-secondary-darkBlue">Team Builder</h3>
+          <p class="text-sm text-secondary-grayBlue pt-3 leading-6">Scans our talent network to create the optimal team for your project</p>
+          <img src="./images/icon-team-builder.svg" alt="icon-team-builder" class="absolute right-8 bottom-8">
+        </div>
+        <div class="bg-white h-[15rem] p-8 border-t-8 border-t-primary-orange rounded-[.3rem] relative w-[355px] shadow-lg">
+          <h3 class="text-lg font-bold text-secondary-darkBlue">Karma</h3>
+          <p class="text-sm text-secondary-grayBlue pt-3 leading-6">Regularly evaluates our talent to ensure quality</p>
+          <img src="./images/icon-karma.svg" alt="icon-karma" class="absolute right-8 bottom-8">
+        </div>
+      </div>
+
+      <div class="bg-white h-[15rem] p-8 border-t-8 border-t-primary-blue rounded-[.3rem] relative w-[355px] shadow-lg">
+        <h3 class="text-lg font-bold text-secondary-darkBlue">Calculator</h3>
+        <p class="text-sm text-secondary-grayBlue pt-3 leading-6">Uses data from past projects to provide better delivery estimates</p>
+        <img src="./images/icon-calculator.svg" alt="icon-calculator" class="absolute right-8 bottom-8">
+      </div>
+    </section>
+  </main>
+
+  <footer class="mt-[10rem] text-secondary-grayBlue font-sm text-center flex justify-center items-center pb-5">
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-primary-blue">Frontend Mentor</a>. 
+      Coded by <a href="https://larisa-kampe.netlify.app/" target="_blank">Larisa Kampe</a>.
+    </p>
+  </footer>
+
+  
+</body>
+</html>
